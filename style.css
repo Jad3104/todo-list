@@ -1,0 +1,45 @@
+.container {
+    margin: auto;
+    width: 400px;
+    max-width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1 {
+    color: skyblue;
+    font-size: 40pt;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: skyblue;
+    color: white;
+    font-size: 16px;
+    padding: 5px 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: rgb(92, 141, 160);
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
